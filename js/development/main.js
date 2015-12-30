@@ -22,9 +22,13 @@
     }
 
     scrollHandler = function(e) {
-        var el;
+        var el,
+            target;
 
-        el = document.querySelector(e.target.parentElement.getAttribute('href'));
+        target = e.target;
+        
+        if (target.nodeName == 'A') { el = document.querySelector(target.getAttribute('href')); }
+        else { el = document.querySelector(target.parentElement.getAttribute('href')); }
 
         velocity(el, 'scroll', { duration: 1000 });
     };
