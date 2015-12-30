@@ -3,7 +3,7 @@ var gulp         = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer'),
 	concat       = require('gulp-concat'),
 	cssmin       = require('gulp-cssmin'),
-	jsmin        = require('gulp-jsmin'),
+	uglify       = require('gulp-uglify'),
     zip          = require('gulp-zip');
 
 // GalleriomJS web page
@@ -21,7 +21,7 @@ gulp.task('scripts', function() {
     return gulp.src(['js/development/velocity.min.js', 'js/development/main.js'])
         .pipe(sourcemaps.init())
         .pipe(concat('script.min.js'))
-        .pipe(jsmin())
+        .pipe(uglify({ preserveComments: 'license' }))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('js/built'))
 });

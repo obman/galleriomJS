@@ -26,7 +26,7 @@
             target;
 
         target = e.target;
-        
+
         if (target.nodeName == 'A') { el = document.querySelector(target.getAttribute('href')); }
         else { el = document.querySelector(target.parentElement.getAttribute('href')); }
 
