@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery Prototype || Galleriom</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="galleriom.css">
+    <style>
+        .pagewrapper {
+            width: 640px;
+            height: 350px;
+            margin: 48px auto;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 640px) {
+            .pagewrapper {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Set width -->
+    <!-- Set height -->
+    <!-- Set metrics system -->
+    <!-- Set thumbs -->
+        <!-- If you want thumbs, add parameter data-preview="thumbs" and a tags before img tags -->
+    <div class="pagewrapper" >
+        <div id="galleriom-jsgallery-app" data-width="100%" data-height="100%" data-thumbs="true">
+            <a href="img/1.jpg"><img src="img/1.jpg"></a>
+            <a href="img/2.jpg"><img src="img/2.jpg"></a>
+            <a href="img/3.jpg"><img src="img/3.jpg"></a>
+        </div>
+    </div>
+
+
+	<script src="galleriom.js"></script>
+</body>
+</html>
