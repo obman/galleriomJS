@@ -21,7 +21,7 @@ gulp.task('scripts', function() {
     return gulp.src(['js/development/velocity.min.js', 'js/development/main.js'])
         .pipe(sourcemaps.init())
         .pipe(concat('script.min.js'))
-        //.pipe(jsmin())
+        .pipe(jsmin())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('js/built'))
 });
