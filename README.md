@@ -23,4 +23,4 @@ At time of this commit, there are 3 mods.
 All 3 setups are documented on [GalleriomJS](http://obman.github.io/galleriomJS/) wep page.
 
 # License #
-WTFPL © [WTFPL](https://en.wikipedia.org/wiki/WTFPL)
+GPL2 © [GPL2](http://www.gnu.org/licenses/)

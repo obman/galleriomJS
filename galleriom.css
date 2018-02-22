@@ -134,6 +134,21 @@
     cursor: -webkit-grab;
     cursor: grab;
 }
+#galleriom-jsgallery-app .galleriom-img.contain {
+    object-fit: contain;
+}
+#galleriom-jsgallery-app .galleriom-img.cover {
+    object-fit: cover;
+}
+#galleriom-jsgallery-app .galleriom-img.fill {
+    object-fit: fill;
+}
+#galleriom-jsgallery-app .galleriom-img.scale-down {
+    object-fit: scale-down;
+}
+#galleriom-jsgallery-app .galleriom-img.none {
+    object-fit: none;
+}
 
 #galleriom-jsgallery-app .galleriom-img:active {
     cursor: -webkit-grabbing;
@@ -165,7 +180,8 @@
     transition: border-color .3s linear;
 }
 
-#galleriom-jsgallery-app img.selected-thumb {
+#galleriom-jsgallery-app img.selected-thumb,
+#galleriom-jsgallery-app div.selected-thumb {
    border-color: rgba(102, 54, 255, .6);
 }
 
