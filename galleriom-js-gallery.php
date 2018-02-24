@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: GalleriomJS Gallery
+ * Plugin Name: GalleriomJS WP Gallery
  * Description: This plugin will load beautiful gallery with own shortcode and fast and optimized code.
  * Depends: Wordpress
  * Version: 1.0
