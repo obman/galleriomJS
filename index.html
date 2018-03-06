@@ -57,8 +57,7 @@
             <h1>GalleriomJS speed of light</h1>
             <div class="download-block">
                 <ul>
-                    <li><a href="galleriom-min.zip">Production files</a></li>
-                    <li><a href="galleriom.zip">Development files</a></li>
+                    <li><a href="galleriom-min.zip">Download</a></li>
                 </ul>
             </div>
             <!-- Write down as many as you can -->
@@ -171,7 +170,18 @@
                 <h1>Thumbnails ON</h1>
                 <div class="setup">
                     <p class="commentary">// Activate thumbs preview</p>
-                    <p class="code"><span><</span>div id="galleriom-jsgallery-app" data-width="400" data-height="300" data-thumbs="true"></p>
+                    <p class="code"><span><</span>div id="galleriom-jsgallery-app" data-width="400" data-height="300" <strong>data-thumbs="true"</strong>></p>
+                    <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/1.jpg"></p>
+                    <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/2.jpg"></p>
+                    <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/2.jpg"></p>
+                    <p class="code"><span><</span>/div></p>
+                </div>
+            </section>
+            <section id="img-size-setup" class="setup-wrapper">
+                <h1>Image size</h1>
+                <div class="setup">
+                    <p class="commentary">// Image size options: contain, cover, fill, scale-down, none </p>
+                    <p class="code"><span><</span>div id="galleriom-jsgallery-app" data-width="400" data-height="300" <strong>data-fit="cover"</strong>></p>
                     <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/1.jpg"></p>
                     <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/2.jpg"></p>
                     <p class="code tab"><span><</span>img class="galleriom-img" src="assets/img/2.jpg"></p>
