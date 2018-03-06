@@ -4,13 +4,12 @@ Donate link: https://www.paypal.me/xaxill
 Tags: gallery, photo-gallery, wordpress-gallery-plugin, GalleriomJS-Gallery
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 0.1
+Stable tag: trunk
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 GalleriomJS lets you create a beautiful gallery slideshow. It's goal is to be used similar to default WP gallery - via WYSIWYG editor. Built in pure JS(ES6), CSS3 and HTML. It is dependency free, so no additional files are loaded or added.
-GalleriomJS won't override default WP gallery shortcode but instead it acts as a wrapper for images.
 
 == Description ==
 
@@ -20,7 +19,7 @@ GalleriomJS won't override default WP gallery shortcode but instead it acts as a
 **BASIC OPTIONS**
 
 Gallery is created with shortcode:
->`[galleriom][/galleriom]`.
+> `[galleriom][/galleriom]`
 
 **1. RESPONSIVE GALLERY**
 
@@ -73,15 +72,20 @@ No, and can't be used in combination with default WP gallery shortcode.
 
 At this time all gallery settings are regulated via shortcode.
 
+=  =
+
+
+
+
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. Gallery with thumbs off
+1. Gallery with thumbs and cover settings
+2. Gallery with no thumbs and cover settings
 
 == Changelog ==
 
 = 0.1 =
 * List versions from most recent at top to oldest at bottom.
+== Upgrade Notice ==
+
+Regular updates via WP Update Manager

@@ -9,6 +9,9 @@ Impressed how to use max of a device hardware and be effective as much as possib
 ### INSTALL ###
 Setup with as easy as posible. In one tag you put all setting that suits you!
 
+### INSTALL AS WORDPRESS PLUGIN ###
+Coming soon
+
 1. Include ___galleriom.css___ in header
 2. Include ___galleriom.js___ before closing body tag
 
@@ -18,9 +21,10 @@ At time of this commit, there are 3 mods.
 
 1. Basic setup
 2. Responsive setup
-3. Thumbnails ON
+3. Thumbnails ON/OFF
+4. Image fit/Image size
 
-All 3 setups are documented on [GalleriomJS](http://obman.github.io/galleriomJS/) wep page.
+All 4 setups are documented on [GalleriomJS](http://obman.github.io/galleriomJS/) wep page.
 
 # License #
 GPL2 © [GPL2](http://www.gnu.org/licenses/)
