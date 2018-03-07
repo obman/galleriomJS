@@ -48,6 +48,15 @@ function galleriomjs_deploy_gallery( $atts, $content = NULL ) {
     );
     $galleriom_html = NULL;
     $galleriom_atts = shortcode_atts( $galleriom_array, $atts );
+    $content = strip_tags( $content, '<img>' );
+
+    if ( $content === NULL || strlen( $content ) < 1 ) {
+        $galleriom_html = '<div style="padding: 24px; margin: 24px auto; color: #333; text-align: center; background-color: #e0e0e0;">';
+        $galleriom_html .= '<p style="margin-bottom: 0; font-weight: bold; text-transform: uppercase;">' . __( 'No images provided' ) . '</p>';
+        $galleriom_html .= '</div>';
+
+        return $galleriom_html;
+    }
 
     $galleriom_html = '<div id="galleriom-jsgallery-app" data-wp="true" data-width="' . $galleriom_atts['width'] . '" data-height="' . $galleriom_atts['height'] . '" data-thumbs="' . $galleriom_atts['thumbs'] . '" data-fit="' . $galleriom_atts['fit'] .'">';
     $galleriom_html .= $content;
@@ -58,7 +67,7 @@ function galleriomjs_deploy_gallery( $atts, $content = NULL ) {
 add_shortcode( 'galleriom', 'galleriomjs_deploy_gallery' );
 
 function galleriomjs_load_assets() {
-    if ( ! is_admin() ) {
+    if ( ! is_admin() && function_exists( 'galleriomjs_deploy_gallery' ) ) {
         wp_register_style( 'galleriomjs-gallery-style', plugin_dir_url( __FILE__ ) . 'galleriom.min.css', false, 'all' );
         wp_register_script( 'galleriomjs-gallery-script', plugin_dir_url( __FILE__ ) . 'galleriom.min.js', false, '1.0', true );
 
