@@ -6,11 +6,13 @@ You don't need any dependency to use it.
 Using native operations to boost animation with devices GPU, and using CPU for logical part only.
 Impressed how to use max of a device hardware and be effective as much as possible.
 
+It can be used as a Wordpress plugin or classic JS library.
+
 ### INSTALL ###
 Setup with as easy as posible. In one tag you put all setting that suits you!
 
 ### INSTALL AS WORDPRESS PLUGIN ###
-Coming soon
+https://wordpress.org/plugins/galleriomjs-wp-gallery/
 
 1. Include ___galleriom.css___ in header
 2. Include ___galleriom.js___ before closing body tag

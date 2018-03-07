@@ -6,6 +6,7 @@ Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: trunk
 Requires PHP: 5.4
+Version: 1.01
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,10 +82,15 @@ At this time all gallery settings are regulated via shortcode.
 
 1. Gallery with thumbs and cover settings
 2. Gallery with no thumbs and cover settings
+3. Example of finished gallery setup in WYSIWYG editor
 
 == Changelog ==
 
-= 0.1 =
+= 1.01 =
+* Improved filtering HTML tags which WYSIWYG editor automatically adds
+* Added info placeholder if there aren't any images in shortcode placeholder
+
+= 1.0 =
 * List versions from most recent at top to oldest at bottom.
 == Upgrade Notice ==
 
