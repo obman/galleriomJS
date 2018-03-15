@@ -73,7 +73,9 @@ No, and can't be used in combination with default WP gallery shortcode.
 
 At this time all gallery settings are regulated via shortcode.
 
-=  =
+= DONATING ?? =
+
+I promise that I will use all the donations for enormous amounts of alcohol and fast food.
 
 
 
