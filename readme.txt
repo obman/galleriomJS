@@ -3,7 +3,7 @@ Contributors: xaxill
 Donate link: https://www.paypal.me/xaxill
 Tags: gallery, photo-gallery, wordpress-gallery-plugin, GalleriomJS-Gallery
 Requires at least: 4.0
-Tested up to: 4.8
+Tested up to: 4.9.4
 Stable tag: trunk
 Requires PHP: 5.4
 License: GPLv2
