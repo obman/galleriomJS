@@ -1,4 +1,4 @@
-/*! GalleriomJS (1.0) (C) Denis Mušić. GPL2 @license: http://www.gnu.org/licenses/ */
+/*! GalleriomJS (1.02) (C) Denis Mušić. GPL2 @license: http://www.gnu.org/licenses/ */
 /**
  * Copyright (C) 2018  Denis Mušić
  * This program is free software; you can redistribute it and/or
@@ -104,7 +104,7 @@
             self.addListeners('mousemove', self.galleryHolder, function( evt ) { self.swipeMouseMove( evt ); });
             self.addListeners('mouseup', self.galleryHolder, function( evt ) { self.swipeMouseEnd( evt ); });
         } catch( error ) {
-            console.log ( error );
+            /*console.log ( error );*/
         }
     };
 
@@ -165,8 +165,8 @@
      */
 
     Galleriom.prototype.setAppFrame = function() {
-        this.appbox.getAttribute( 'data-width' );
-        this.appbox.getAttribute( 'data-height' );
+        if ( this.appbox.hasAttribute( 'data-width' ) ) this.appbox.getAttribute( 'data-width' );
+        if ( this.appbox.hasAttribute( 'data-height' ) ) this.appbox.getAttribute( 'data-height' );
 
         // Set the user provided dimensions
         this.grabber( this.appbox );

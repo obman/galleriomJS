@@ -6,7 +6,6 @@ Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: trunk
 Requires PHP: 5.4
-Version: 1.01
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +86,10 @@ I promise that I will use all the donations for enormous amounts of alcohol and 
 3. Example of finished gallery setup in WYSIWYG editor
 
 == Changelog ==
+
+= 1.02 =
+* Improved error handling
+* Additional conditions to prevent breaking scripts
 
 = 1.01 =
 * Improved filtering HTML tags which WYSIWYG editor automatically adds
