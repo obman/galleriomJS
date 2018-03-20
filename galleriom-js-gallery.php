@@ -3,7 +3,7 @@
  * Plugin Name: GalleriomJS WP Gallery
  * Description: This plugin will load beautiful gallery with own shortcode and fast and optimized code.
  * Depends: Wordpress
- * Version: 1.02
+ * Version: 1.03
  * Author: xaxill
  * Author URI: https://udm-studio.si/
  * License: GPL2

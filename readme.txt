@@ -87,6 +87,9 @@ I promise that I will use all the donations for enormous amounts of alcohol and 
 
 == Changelog ==
 
+= 1.03 =
+* Script won't start if selector is missing
+
 = 1.02 =
 * Improved error handling
 * Additional conditions to prevent breaking scripts

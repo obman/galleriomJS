@@ -591,18 +591,20 @@
 
 
     // Constructor call
-    gallery = function( galleryDOM ) {
-        return new Galleriom( galleryDOM );
-    };
+    if ( galleryDOM ) {
+        gallery = function( galleryDOM ) {
+            return new Galleriom( galleryDOM );
+        };
 
-    global.galleriom = gallery( galleryDOM );
+        global.galleriom = gallery( galleryDOM );
 
-    /**
-     * Start the application
-     *
-     * Starting application after all DOM is loaded, to ensure proper working environment.
-     * Application will self execute after DOM is loaded.
-     */
-    global.galleriom.startApp(global);
+        /**
+         * Start the application
+         *
+         * Starting application after all DOM is loaded, to ensure proper working environment.
+         * Application will self execute after DOM is loaded.
+         */
+        global.galleriom.startApp( global );
+    }
 
 } )( window, document.getElementById( 'galleriom-jsgallery-app' ) );
