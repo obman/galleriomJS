@@ -2,6 +2,8 @@
 
 [![WP compatibility](https://plugintests.com/plugins/galleriomjs-wp-gallery/wp-badge.svg)](https://plugintests.com/plugins/galleriomjs-wp-gallery/latest)
 [![PHP compatibility](https://plugintests.com/plugins/galleriomjs-wp-gallery/php-badge.svg)](https://plugintests.com/plugins/galleriomjs-wp-gallery/latest)
+
+
 *GalleriomJS is created with __speed__, __lightness__ and __good support__ in mind.*
 
 You don't need any dependency to use it.
